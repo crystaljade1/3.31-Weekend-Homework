@@ -12,7 +12,7 @@ import XCTest
 
 
 class LocationTests : XCTestCase {
-    func testMeasureMovementByBlocks(.east(-2), .north(4)) {
+    func testMeasureMovementByBlocks(direction: .east(-2), direction: .north(4)) {
         let result = [.north, (x: -4, y: 0)]
         let expected: 6
         XCTAssertEqual(result, expected)

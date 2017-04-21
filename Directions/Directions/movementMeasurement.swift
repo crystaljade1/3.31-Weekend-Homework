@@ -12,19 +12,16 @@ enum CurrentLocation {
     case y
 }
 
-enum Int {
-    case xCoordinate
-    case yCoordinate
-}
+// func blockCount(value: Int) {
+   // let value == (value.xCoordinate + value.yCoordinate)
+//}
 
-
-func blockCount(value: Int) {
-    let value == (value.xCoordinate + value.yCoordinate)
-}
-
-func MovementByBlocks() { // to calculate the number of blocks traveled in one trip.
-    if instruction == .north && blockCount = 1 {
-        return blockCount(Int)
+func MovementByBlocks(locationX: CurrentLocation.x, locationY: CurrentLocation.y) -> Int { // to calculate the number of blocks traveled in one trip.
+    if locationX == 8 {
+        return 8
+    }
+    if locationY == 7 {
+        return 7
     }
 }
 
@@ -33,9 +30,7 @@ func positiveDirection(cardinal: CardinalDirection) -> CardinalDirection {
     return CardinalDirection.east
     }
 
-let Location = (xCoordinate, yCoordinate)
 
 
 // for loop - use for the addition of blocks let return = return + x
-
 // if xCoordinate == (xCoordinate: Int, yCoordinate: Int)

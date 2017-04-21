@@ -57,29 +57,5 @@ class DirectionsTests: XCTestCase {
         let expected: CardinalDirection = .north
         XCTAssertEqual(result, expected)
     }
-    
-    func testMeasureMovementByBlocksWest() {
-        let result = MovementByBlocks(2)
-        let expected: DistanceWalked = -2
-        XCTAssertEqual(result, expected)
-    }
-    
-    func testMeasureMovementByBlocksEast() {
-        let result = MovementByBlocks(2)
-        let expected: DistanceWalked = 2
-        XCTAssertEqual(result, expected)
-    }
-    
-    func testMeasureMovementByBlocksNorth() {
-        let result = MovementByBlocks(2)
-        let expected: DistanceWalked = 2
-        XCTAssertEqual(result, expected)
-    }
-    
-    func testMeasureMovementByBlocksSouth() {
-        let result = MovementByBlocks(2)
-        let expected: DistanceWalked = -2
-        XCTAssertEqual(result, expected)
-    }
 
 }
