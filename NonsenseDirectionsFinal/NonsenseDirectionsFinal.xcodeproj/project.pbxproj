@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		824FE3E91EA9BDF300754E2E /* NonsenseDirectionsFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824FE3DF1EA9BDF300754E2E /* NonsenseDirectionsFinal.framework */; };
-		824FE3EE1EA9BDF300754E2E /* NonsenseDirectionsFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FE3ED1EA9BDF300754E2E /* NonsenseDirectionsFinalTests.swift */; };
 		824FE3F01EA9BDF300754E2E /* NonsenseDirectionsFinal.h in Headers */ = {isa = PBXBuildFile; fileRef = 824FE3E21EA9BDF300754E2E /* NonsenseDirectionsFinal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		824FE3FC1EA9BE8F00754E2E /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FE3FB1EA9BE8F00754E2E /* Instruction.swift */; };
 		824FE3FE1EA9BECF00754E2E /* CardinalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FE3FD1EA9BECF00754E2E /* CardinalDirection.swift */; };
 		824FE4001EA9BF5300754E2E /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FE3FF1EA9BF5300754E2E /* Move.swift */; };
+		82B6A4C81EC40E570036EDDF /* InstructionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A4C71EC40E570036EDDF /* InstructionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,11 +30,11 @@
 		824FE3E21EA9BDF300754E2E /* NonsenseDirectionsFinal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NonsenseDirectionsFinal.h; sourceTree = "<group>"; };
 		824FE3E31EA9BDF300754E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		824FE3E81EA9BDF300754E2E /* NonsenseDirectionsFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NonsenseDirectionsFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		824FE3ED1EA9BDF300754E2E /* NonsenseDirectionsFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonsenseDirectionsFinalTests.swift; sourceTree = "<group>"; };
 		824FE3EF1EA9BDF300754E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		824FE3FB1EA9BE8F00754E2E /* Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
 		824FE3FD1EA9BECF00754E2E /* CardinalDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardinalDirection.swift; sourceTree = "<group>"; };
 		824FE3FF1EA9BF5300754E2E /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		82B6A4C71EC40E570036EDDF /* InstructionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		824FE3EC1EA9BDF300754E2E /* NonsenseDirectionsFinalTests */ = {
 			isa = PBXGroup;
 			children = (
-				824FE3ED1EA9BDF300754E2E /* NonsenseDirectionsFinalTests.swift */,
+				82B6A4C71EC40E570036EDDF /* InstructionTests.swift */,
 				824FE3EF1EA9BDF300754E2E /* Info.plist */,
 			);
 			path = NonsenseDirectionsFinalTests;
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824FE3EE1EA9BDF300754E2E /* NonsenseDirectionsFinalTests.swift in Sources */,
+				82B6A4C81EC40E570036EDDF /* InstructionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +414,7 @@
 				824FE3F51EA9BDF300754E2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824FE3F61EA9BDF300754E2E /* Build configuration list for PBXNativeTarget "NonsenseDirectionsFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				824FE3F81EA9BDF300754E2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
